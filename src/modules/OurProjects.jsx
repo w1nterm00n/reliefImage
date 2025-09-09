@@ -1,6 +1,6 @@
 function OurProjects() {
     return(
-        <div className="our_projects_section mt-5 mb-16">
+        <div id="ourProjects" className="our_projects_section mt-5 mb-16">
             <div className="m-0-auto w-[80vw] flex items-center gap-4">
                 <span className="font-lg text-[#34642C]">НАШИ ПРОЕКТЫ</span>
                 <span className="flex flex-col items-end mt-1 flex-grow">

@@ -1,6 +1,6 @@
 function GardenTreatment() {
     return(
-        <div className="garden_treatment bg-gray-400 bg-[url('./assets/garden_treatment_bg.png')] bg-cover bg-center">
+        <div id="gardenTreatment" className="garden_treatment bg-gray-400 bg-[url('./assets/garden_treatment_bg.png')] bg-cover bg-center">
             <div className="garden_treatment_wrapper pt-6 pb-16">
                 <div className="mx-auto mb-3 w-[80vw] flex items-center gap-4">
                 <span className="font-lg text-[#FFDF9E]">УХОД ЗА САДОМ</span>

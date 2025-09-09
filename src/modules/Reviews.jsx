@@ -1,6 +1,6 @@
 function Reviews() {
     return(
-        <div className="reviews mt-20">
+        <div id="reviews" className="reviews mt-20">
             <div className="green_decoration_line m-0-auto w-fit flex flex-col items-center">
                 <img src="./src/assets/green_logo.svg" alt="green logo" />
                 <div className="line w-[340px] bg-[#34642C] h-[1px] mb-1" />

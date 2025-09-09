@@ -1,6 +1,6 @@
 function Landscape() {
     return(
-        <div className="landscape mt-10">
+        <div id="landscape" className="landscape mt-10">
             <div className="landscape_wrapper">
                 <div className="mx-auto mb-5 w-[80vw] flex items-center gap-4">
                 <span className="font-lg text-[#34642C]">ЛАНДШАФТ</span>

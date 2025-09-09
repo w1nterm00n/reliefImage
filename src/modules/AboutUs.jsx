@@ -1,6 +1,6 @@
 function AboutUs() {
     return(
-        <div className="about_us_section mt-20 relative">
+        <div id="aboutUs" className="about_us_section mt-20 relative">
             <div className="about_us_wrapper w-[80vw] m-0-auto">
                 <div className="green_decoration_line m-0-auto w-fit flex flex-col items-center">
                 <img src="./src/assets/green_logo.svg" alt="green logo" />
