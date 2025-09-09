@@ -1,1 +1,43 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .hero_section {
+    background-image: url('./src/assets/main_image_cover.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .w-fit{
+    width: fit-content;
+  }
+  .m-0-auto{
+    margin: 0 auto;
+  }
+  .mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .grid-cols-three{
+    grid-template-columns: repeat(3, auto);
+  }
+  .gray_shadow{
+    box-shadow: 1px 1px 20px 1px gray;
+  }
+}
+
+@layer components {
+    .selected_button{
+        color: #FF7E35;
+        background-color: #FFEFE3D4;
+        border-top: 2px solid #FF7E35;
+        border-left: 2px solid #FF7E35;
+        border-bottom: 2px solid #FF7E35;
+        border-right: 15px solid #FF7E35;
+    }
+    .not_selected_button{
+        border-width: 1px;
+        border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+    }
+}
