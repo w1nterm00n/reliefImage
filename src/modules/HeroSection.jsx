@@ -1,3 +1,4 @@
+import ConsultationFormCard from "./ConsultationFormCard";
 import Navigation from "./Navigation";
 
 function HeroSection() {
@@ -5,7 +6,6 @@ function HeroSection() {
     <div className="hero_section text-white flex flex-col relative">
 
     <Navigation />
-
     <section className="hero_section_content flex justify-between px-[10vw] flex-grow">
         <div className="my-20">
         <div className="logo mb-12">
@@ -40,6 +40,7 @@ function HeroSection() {
         </a>
         </div>
     </section>
+    <ConsultationFormCard />
     <section className="features-section bg-[rgba(33,26,21,0.87)] bottom-[-50px] mx-[10vw] w-[80vw] py-8 max-h-34 absolute rounded">
         <div className="flex justify-around items-center items-baseline">
         <div className="flex flex-col items-center">
