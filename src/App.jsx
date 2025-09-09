@@ -1,12 +1,16 @@
 import './App.css'
-import Navigation from "./modules/Navigation";
 import HeroSection from "./modules/HeroSection";
+import AboutUs from "./modules/AboutUs";
+import OurProjects from "./modules/OurProjects";
 
 function App() {
 
   return (
     <div>
-      <HeroSection></HeroSection>
+      <HeroSection />
+      <AboutUs />
+      <OurProjects />
+
     </div>
   )
 }
